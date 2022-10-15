@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+    <meta charset="utf-8">
+    <META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="ru">
+    <style type="text/css">
+       DIV {
+        width: 1400px; /* Ширина слоя */
+        margin: 10px; /* Значение отступов */
+        padding: 10px; /* Поля вокруг текста */
+        border: 3px solid #BD986B; /* Параметры границы */
+        background: #FBEEC1; /* Цвет фона */ 
+       }
+       img{
+        width: 300px;
+                height: auto;
+                display: block;
+                border: 0;
+                outline: none;
+                text-decoration: none;
+       }
+    </style>
+</head>
+<body bgcolor="#DAAD86">
+    <form name="quiz" class="quiz" id="quiz" action="javascript:check();">
+<div>
+    <h3> 1. ASP.NET це </h3>
+    <input name="vopros1" checked="checked" value="yes" id="value1" type="radio"> це платформа вебдодатків від Microsoft , яку можна використовувати для розробки динамічних веб- сайтів , вебдодатків і вебслужб. <br>
+    <input name="vopros1" value="no" id="value2" type="radio"> це платформа  від Microsoft для створення ігор <br>
+    <input name="vopros1" value="no" id="value3" type="radio"> це вебсайт <br>
+    <input name="vopros1" value="no" id="value4" type="radio"> це вебдодаток <br>
+</div>
+
+<div>
+    <h3> 2. Веб-сторінки ASP.NET </h3>
+    <input name="vopros2" checked="checked" value="yes" id="value1" type="radio"> це платформа для створення динамічних веб-сторінок<br>
+    <input name="vopros2" value="no" id="value2" type="radio"> це платформа з відкритим вихідним кодом, яка реалізує техніку WebHooks і базується на ASP.NET Web API.<br>
+    <input name="vopros2" value="no" id="value3" type="radio"> це синтаксис мови програмування C# і Visual Basic .NET, який використовується під час створення вебсторінок <br>
+    <input name="vopros2" value="no" id="value4" type="radio"> це платформа вебдодатків, яку можна використовувати для розробки динамічних вебсайтів <br>
+</div>
+
+<div>
+    <h3> 3. ASP.NET WebHooks </h3>
+    <input name="vopros3" checked="checked" value="no" id="value1" type="radio"> це платформа для створення динамічних вебсторінок <br>
+    <input name="vopros3" value="yes" id="value2" type="radio"> це платформа з відкритим вихідним кодом, яка реалізує техніку WebHooks і базується на ASP.NET Web API. <br>
+    <input name="vopros3" value="no" id="value3" type="radio"> це синтаксис мови програмування C# і Visual Basic .NET, який використовується під час створення веб-сторінок <br>
+    <input name="vopros3" value="no" id="value4" type="radio"> це платформа вебдодатків, яку можна використовувати для розробки динамічних вебсайтів <br>  
+</div>
+
+<div>
+    <h3> 4. Razor </h3>
+    <input name="vopros4" checked="checked" value="no" id="value1" type="radio"> це платформа з відкритим вихідним кодом, яка реалізує техніку WebHooks і базується на ASP.NET Web API. <br>
+    <input name="vopros4" value="no" id="value2" type="radio">це платформа для створення динамічних вебсторінок  <br>
+    <input name="vopros4" value="no" id="value3" type="radio"> це платформа вебдодатків, яку можна використовувати для розробки динамічних вебсайтів <br>
+    <input name="vopros4" value="yes" id="value4" type="radio"> це синтаксис мови програмування C# і Visual Basic .NET, який використовується під час створення веб-сторінок <br>
+</div>
+
+<div>
+    <h3> 5. Під числом 1 зображено : </h3>
+    <img src="images/one.JPG"/>
+    <input name="vopros5" checked="checked" value="no" id="value1" type="radio"> згенерована на запит сторінка <br>
+    <input name="vopros5" value="no" id="value2" type="radio"> дані  <br>
+    <input name="vopros5" value="no" id="value3" type="radio"> форма <br>
+    <input name="vopros5" value="yes" id="value4" type="radio"> Web-браузер<br>
+</div>
+
+<div>
+    <h3> 6. Під числом 2 зображено : </h3>
+    <img src="images/one.JPG"/>
+    <input name="vopros6" checked="checked" value="no" id="value1" type="radio"> згенерована на запит сторінка <br>
+    <input name="vopros6" value="no" id="value2" type="radio"> дані  <br>
+    <input name="vopros6" value="no" id="value3" type="radio"> Web-браузер <br>
+    <input name="vopros6" value="yes" id="value4" type="radio"> форма <br>
+</div>
+
+<div>
+    <h3> 7. ASP.NET бере свою назву від </h3>
+    <img src="images/one.JPG" />
+    <input name="vopros7" checked="checked" value="no" id="value1" type="radio"> згенерована на запит сторінка <br>
+    <input name="vopros7" value="no" id="value2" type="radio"> Web-браузер  <br>
+    <input name="vopros7" value="no" id="value3" type="radio"> форма <br>
+    <input name="vopros7" value="yes" id="value4" type="radio"> дані <br>
+</div>
+
+<div>
+    <h3> 8. Найбільш часто використовуваною директивою є </h3>
+    <input name="vopros8" checked="checked" value="no" id="value1" type="radio"> <%@ Assembly %> <br>
+    <input name="vopros8" value="no" id="value2" type="radio"> <% @ Reference %>  <br>
+    <input name="vopros8" value="no" id="value3" type="radio"> <%@ PreviousPageType %> <br>
+    <input name="vopros8" value="yes" id="value4" type="radio"> <%@ Page %> <br>
+</div>
+
+<div>
+    <h3> 9. Скільки директив @ Page можна включити у файл .aspx</h3>
+    <input name="vopros9" checked="checked" value="no" id="value1" type="radio"> чотири  <br>
+    <input name="vopros9" value="no" id="value2" type="radio"> три  <br>
+    <input name="vopros9" value="no" id="value3" type="radio"> дві <br>
+    <input name="vopros9" value="yes" id="value4" type="radio"> одну <br>
+</div>
+
+<div>
+    <h3> 10. У якому році перша версія ASP.NET прийшла на зміну застарілому ASP (Active Server Pages)  </h3>
+    <input name="vopros10" checked="checked" value="no" id="value1" type="radio"> 2004 <br>
+    <input name="vopros10" value="no" id="value2" type="radio"> 1999  <br>
+    <input name="vopros10" value="no" id="value3" type="radio"> 2005 <br>
+    <input name="vopros10" value="yes" id="value4" type="radio"> 2002 <br>
+</div>
+<br>
+<input value="Відповісти" type="submit">
+</form>
+</body>
+
+<script>
+ function check()
+ {
+ var yes=0;
+ var no=0;
+ var otvet="";
+ var choice;
+ for (var v=1; v<=10; v++)
+ {
+ var q = document.forms['quiz'].elements['vopros'+v];
+  for (var i=0; i<q.length; i++)
+  {
+  if (q[i].checked) {
+  choice=q[i].value;
+  }
+  }
+  if (choice=="yes") {yes++;}
+  if (choice=="no") {no++;}
+ }
+ switch (true) {
+ case (yes==0): otvet="0 правильних відповідей";break;
+ case (yes==1): otvet="1 правильна відповідь";break;
+ case (yes==2): otvet="2 правильні відповіді";break;
+ case (yes==3): otvet="3 правильні відповіді";break;
+ case (yes==4): otvet="4 правильних відповідей";break;
+ case (yes==5): otvet="5 правильних відповідей";break;
+ case (yes==6): otvet="6 правильних відповідей";break;
+ case (yes==7): otvet="7 правильних відповідей";break;
+ case (yes==8): otvet="8 правильних відповідей";break;
+ case (yes==9): otvet="9 правильних відповідей";break;
+ case (yes==10): otvet="10 правильних відповідей";break;
+ default: otvet="Щось пішло не так";break;
+ }
+ alert(otvet);
+ }
+</script>
